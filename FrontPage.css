@@ -1,0 +1,17 @@
+.front-page {
+  background-color: #f8f9fa; /* Light background */
+  padding: 0px 10px;
+}
+
+.btn-custom {
+  background-color: #0b5aaf;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-custom:hover {
+  background-color: #007bff;
+}

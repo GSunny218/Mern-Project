@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+}
+
+.center-box {
+  max-width: 420px;
+  margin: auto;
+  padding: 40px 30px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin-top: 10%;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+}
+
+.btn-custom {
+  background: #6c5ce7;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  color: #fff;
+}
+
+.btn-custom:hover {
+  background: #a29bfe;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
