@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
 import FrontPage from './components/frontPage';
 import Access from './components/access';
 import Login from './components/login';
